@@ -32,7 +32,7 @@ Ensure you have the following installed on your local machine:
 
 Navigate to the backend directory and set up your Python environment:
 
-```bash
+bash
 # Navigate to the backend folder
 cd backend
 
@@ -82,9 +82,3 @@ To run the test suite:
 Bash
 cd frontend
 npm test
-🚀 Deployment
-This application is architected for a "Split Deploy" to ensure database persistence and frontend speed.
-
-Frontend (Vercel): Connect your GitHub repository to Vercel. Set the Framework Preset to Angular and the Root Directory to frontend.
-
-Backend (Render): Deploy the backend folder as a Web Service on Render using the requirements.txt file. Ensure you add FRONTEND_CORS_URL to your Render environment variables to allow Vercel to communicate with the API.
