@@ -1,0 +1,28 @@
+# Environments and Secrets
+.env
+venv/
+env/
+.venv/
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (Keeps your local test data out of the repository)
+*.db
+*.sqlite3
+
+# IDEs and Editors (Keeps your personal workspace settings private)
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+.pytest_cache/
+htmlcov/
+.coverage
